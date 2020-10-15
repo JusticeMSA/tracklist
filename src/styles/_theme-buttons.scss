@@ -1,0 +1,10 @@
+@import './theme-colors';
+
+@mixin btn{
+    padding: 4px 18px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,22 @@
+@import '../../styles/theme-colors';
+@import '../../styles/theme-buttons';
+.header{
+    padding: 0 5%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+
+    .logo{
+        text-decoration: none;
+        color: $primary-text;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .solid-button{
+        @include btn;
+        background-color: $primary-color;
+        color: #fff;
+    }
+}
